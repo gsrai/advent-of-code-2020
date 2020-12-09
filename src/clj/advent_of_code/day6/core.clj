@@ -3,7 +3,7 @@
             [clojure.set :refer [intersection]]
             [clojure.string :refer [split-lines blank? join]]))
 
-;; https://adventofcode.com/2020/day/5
+;; https://adventofcode.com/2020/day/6
 
 (defn part1 [data]
   (->> data
@@ -51,7 +51,7 @@ b")
 (deftest test-part1
   (is (= (part1 test-data) 11)))
 
-;; part 1
+;; part 2
 (deftest test-part2
   (is (= (part2 test-data) 6)))
 
