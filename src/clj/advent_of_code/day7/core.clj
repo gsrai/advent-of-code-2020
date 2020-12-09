@@ -12,7 +12,7 @@
 (defn sub-contains? [container own-bag database]
   (->> container
        database
-       (some (fn [[n bag]]
+       (some (fn [[_ bag]]
                (or
                 (= bag own-bag)
                 (sub-contains? bag own-bag database))))))

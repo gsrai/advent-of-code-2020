@@ -6,6 +6,7 @@
             [advent-of-code.day5.core :as day5]
             [advent-of-code.day6.core :as day6]
             [advent-of-code.day7.core :as day7]
+            [advent-of-code.day8.core :as day8]
             [advent-of-code.other-solutions.day1.core :as alt-day1]
             [advent-of-code.other-solutions.day2.core :as alt-day2]
             [advent-of-code.other-solutions.day5.core :as alt-day5]))
@@ -24,7 +25,9 @@
   (println "\nDay 6:")
   (day6/main)
   (println "\nDay 7:")
-  (day7/main))
+  (day7/main)
+  (println "\nDay 8:")
+  (day8/main))
 
 (defn run-alt-solutions []
   (println "\nAlternate Solution for Day 1:")
